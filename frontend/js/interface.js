@@ -14,13 +14,13 @@ export async function renderizarTodos() {
       <div class="video__container">
         <img
           class="video__thumbnail"
-          src="${`http://localhost:3000/uploads/${video.imagem}`}"
+          src=" "
           alt="Thumb do ${video.titulo}"
         />
         <div class="video__info">
           <img
             class="channel__avatar"
-            src="${api(`uploads/${canal.imagem}`)}"
+            src=" "
             alt="Avatar do ${canal.nome}"
           />
           <div class="video__details">
@@ -43,3 +43,4 @@ export async function renderizarTodos() {
     `;
   }
 }
+
